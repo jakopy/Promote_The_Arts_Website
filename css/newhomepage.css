@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+
+nav ul{
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    padding: 1%;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    color: white;
+    margin-left: 10%;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    display: block;
+    color: black;
+    background-color: yellow;
+}
+nav{
+    display: block;
+    background: black;
+    outline: red solid 1px;
+}

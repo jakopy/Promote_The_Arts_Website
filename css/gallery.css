@@ -1,0 +1,190 @@
+/*
+    Promote the Arts Homepage CSS
+
+   Promote the arts style sheet
+   Author: Jacob Isaacs
+   Date:   3/9/2016
+
+   Filename:         promo.css
+   Supporting Files: none
+
+*/
+
+/* Section Styles */
+
+body {
+margin: auto;
+max-width: 1000px;
+min-width: 250px;
+font-family: Verdana, Geneva, sans-serif;
+background-image: url(../images/background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+
+
+/* Site Navigation */
+
+
+header{
+    text-align: center;
+}
+header img{
+    outline: rgba(222,155,38, 0.9) 2px solid;
+    margin-top: 10px;
+}
+
+nav{
+    height: 50px;
+    width: 1000px;
+    background-color: black;
+    outline: rgba(222,155,38, 0.9) 2px solid;
+    /* test */    
+    /*outline: black solid 2px; */
+}
+/* for problem 9*/
+nav li{
+    background-color: black;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    width: 180px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+}
+nav li a{
+    display: block;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+/* for problem 10 when hovering */
+nav li a:hover{
+    background-color: rgba(222,155,38, 0.9);
+    color: black;
+}
+/* Gallery heading */
+#maintitle{
+    background: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+    outline: rgba(222,155,38, 0.9) 2px solid;
+}
+aside{
+    background: black;
+    color: white;
+    width: 17%;
+    outline: rgba(222,155,38, 0.9) 2px solid;
+    float: left;
+}
+h1{
+    background: black;
+    color: white;
+}
+#photography{
+    float: left;
+    width: 80%;
+    text-align: center;
+    margin-left: 1%;
+    outline: 2px solid rgba(222,155,38, 0.9);
+}
+.firstimage{
+    margin-left: 10%;
+    float: left;
+    background: black;
+    outline: 2px solid rgba(222,155,38, 0.9);
+    color: white;
+    text-align: center;
+}
+.verticalimages{
+    margin-left: 1%;
+    float: left;
+    background: black;
+    outline: 2px solid rgba(222,155,38, 0.9);
+    color: white;
+    text-align: center;
+}
+.verticalimages figcaption{
+    outline: 2px solid rgba(222,155,38, 0.9);
+}
+.horizontalimages{
+    margin-left: 4%;
+    float: left;
+    background: black;
+    outline: 2px solid rgba(222,155,38, 0.9);
+    color: white;
+    text-align: center;
+}
+.horizontalimages figcaption{
+    outline: 2px solid rgba(222,155,38, 0.9);
+}
+#portraits{
+    height: 15%;
+    width: 100%;
+    background: black;
+    float: left;
+    outline: 2px solid rgba(222,155,38, 0.9);
+}
+.portrait{
+    margin-left: 4%;
+    float: left;
+    background: black;
+    outline: 2px solid rgba(222,155,38, 0.9);
+    color: white;
+    text-align: center;
+}
+.portrait figcaption{
+    outline: 2px solid rgba(222,155,38, 0.9);
+}
+#paint{
+    height: 15%;
+    width: 100%;
+    background: black;
+    float: left;
+    outline: 2px solid rgba(222,155,38, 0.9);
+}
+.paintingvert{
+    margin-left: 3%;
+    float: left;
+    background: black;
+    outline: 2px solid rgba(222,155,38, 0.9);
+    color: white;
+    text-align: center;
+}
+.paintingvert figcaption{
+    outline: 2px solid rgba(222,155,38, 0.9);
+}
+.paintinghoriz{
+    margin-left: 4%;
+    float: left;
+    background: black;
+    outline: 2px solid rgba(222,155,38, 0.9);
+    color: white;
+    text-align: center;   
+}
+.paintinghoriz figcaption{
+    outline: 2px solid rgba(222,155,38, 0.9);
+}
+footer {
+clear:left;
+display: block;
+width: 100%;
+text-align: center;
+font-variant: small-caps;
+border-top: 5px solid rgba(222,155,38, 0.9);
+background-color: black;
+line-height: 50px;
+position: relative;
+top: 10px;
+height: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+

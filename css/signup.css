@@ -1,0 +1,12 @@
+.field-wrap{
+    color: white;
+    background: black;
+    margin-top: 1%;
+}
+form{
+    background: black;
+    outline: rgba(222,155,38, 0.9) 2px solid;
+}
+h1{
+        outline: rgba(222,155,38, 0.9) 2px solid;
+}

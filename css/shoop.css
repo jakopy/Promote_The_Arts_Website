@@ -1,0 +1,52 @@
+
+img{
+    outline: rgba(222,155,38, 0.9) 2px solid;
+}
+#contacts{
+    background: black;
+    color: white;
+    outline: rgba(222,155,38, 0.9) 2px solid;
+    text-align: center;
+}
+h1{    
+    background: black;
+    color: white;
+    outline: rgba(222,155,38, 0.9) 2px solid;
+}
+#profile figcaption{
+    background: black;
+    color: white;
+    outline: rgba(222,155,38, 0.9) 2px solid;
+    text-align: center;
+    width: 200px;
+}
+p{
+        background: black;
+    color: white;
+    outline: rgba(222,155,38, 0.9) 2px solid;
+    text-align: center;
+}
+#imagegallery{
+        background: black;
+    color: white;
+    outline: rgba(222,155,38, 0.9) 2px solid;
+    text-align: center;
+}
+#addphotos p{
+    background: black;
+    outline: none;
+    text-align: left;
+}
+#addphotos h1{
+    text-align: center;
+}
+#addphotos{
+    background: black;
+}
+form{
+    background: black;
+}
+form p{
+    float: left;
+    margin-left: 10%;
+}

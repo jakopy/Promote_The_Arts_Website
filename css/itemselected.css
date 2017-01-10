@@ -1,0 +1,123 @@
+/*
+    Promote the Arts Homepage CSS
+
+   Promote the arts style sheet
+   Author: Jacob Isaacs
+   Date:   3/9/2016
+
+   Filename:         promo.css
+   Supporting Files: none
+
+*/
+
+/* Section Styles */
+
+body {
+margin: auto;
+max-width: 1000px;
+min-width: 250px;
+font-family: Verdana, Geneva, sans-serif;
+background-image: url(../images/background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+/* Site Navigation */
+
+
+header{
+    text-align: center;
+}
+header img{
+    outline: rgba(222,155,38, 0.9) 2px solid;
+    margin-top: 10px;
+}
+
+nav{
+    height: 50px;
+    width: 1000px;
+    background-color: black;
+    outline: rgba(222,155,38, 0.9) 2px solid;
+    /* test */    
+    /*outline: black solid 2px; */
+}
+/* for problem 9*/
+nav li{
+    background-color: black;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    width: 180px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+}
+nav li a{
+    display: block;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+/* for problem 10 when hovering */
+nav li a:hover{
+    background-color: rgba(222,155,38, 0.9);
+    color: black;
+}
+/*Product Images*/
+#Selected{
+    background: black;
+    outline: 2px solid rgba(222,155,38, 0.9);
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#imageselected{
+    float: left;
+    margin-left: 5%;
+    border: 2px solid rgba(222,155,38, 0.9);
+}
+#Selected figure{
+    float: left;
+    
+}
+aside{
+    color: white;
+    float: left;
+    margin-left: 5%;
+    border: 2px solid rgba(222,155,38, 0.9);
+    padding: 0.5%;
+}
+#checkout{
+    float: right;
+    border: 2px solid rgba(222,155,38, 0.9);
+    margin-right: 5%;
+    text-align: center;
+    padding: 1%;
+}
+h2{
+    margin-top: 22%;
+    clear: left;
+    text-align: center;
+    outline: 2px solid rgba(222,155,38, 0.9);
+}
+form{
+    color: white;
+}
+footer {
+clear:left;
+width: 100%;
+text-align: center;
+font-variant: small-caps;
+border-top: 5px solid rgba(222,155,38, 0.9);
+background-color: black;
+line-height: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+
+
